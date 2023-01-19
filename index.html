@@ -9,354 +9,351 @@
 <head>
 
 <body>
-		<main>
-			<h1> CSS: SELECTORS AND SPECIFICITY</h1> 
-			<P>When starting out with CSS, one will soon discover that there are more selectors than by ID'S, Classes, tags</P> 
+	<main>
+		<h1> CSS: SELECTORS AND SPECIFICITY</h1> 
+		<P>When starting out with CSS, one will soon discover that there are more selectors than by ID'S, Classes, tags</P> 
 
-			 <section>
-						<table>
-								<h2>Table Tags</h2>
-								<thead>
-										<tr>
-												<th>Tag</th>
-												<th>Name</th>
-												<th>Description</th>
-										</tr>
-								</thead>
-								<tbody>
-										<tr>
-												<td>&lt;table&gt;</td>
-												<td>Table</td>
-												<td>The wrapper element for all HTML tables.</td>
-										</tr>
-										<tr>
-												<td>&lt;thead&gt;</td>
-												<td>Table Head</td>
-												<td>The set of rows defining the column headers in a table.</td>
-										</tr>
-										<tr>
-												<td>&lt;tbody&gt;</td>
-												<td>Table Body</td>
-												<td>The set of rows containing actual table data.</td>
-										</tr>
-										<tr>
-												<td>&lt;tr&gt;</td>
-												<td>Table Row</td>
-												<td>The table row container.</td>
-										</tr>
-										<tr>
-												<td>&lt;th&gt;</td>
-												<td>Table Heading</td>
-												<td>Inserts heading in the table.</td>
-										</tr>
-										<tr>
-												<td>&lt;td&gt;</td>
-												<td>Table Data</td>
-												<td>Adds data to the rows.</td>
-										</tr>
-										<tr>
-												<td>&lt;tfooter&gt;</td>
-												<td>Table Footer</td>
-												<td>The set of rows defining the footer in a table.</td>
-										</tr>
-								</tbody>
-						</table> <br> <br>
+		 <section>
+			<table>
+			<h2>Table Tags</h2>
+				<thead>
+					<tr>
+						<th>Tag</th>
+						<th>Name</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>&lt;table&gt;</td>
+						<td>Table</td>
+						<td>The wrapper element for all HTML tables.</td>
+					</tr>
+					<tr>
+						<td>&lt;thead&gt;</td>
+						<td>Table Head</td>
+						<td>The set of rows defining the column headers in a table.</td>
+					</tr>
+					<tr>
+						<td>&lt;tbody&gt;</td>
+						<td>Table Body</td>
+						<td>The set of rows containing actual table data.</td>
+					</tr>
+					<tr>
+						<td>&lt;tr&gt;</td>
+						<td>Table Row</td>
+						<td>The table row container.</td>
+					</tr>
+					<tr>
+						<td>&lt;th&gt;</td>
+						<td>Table Heading</td>
+						<td>Inserts heading in the table.</td>
+					</tr>
+					<tr>
+						<td>&lt;td&gt;</td>
+						<td>Table Data</td>
+						<td>Adds data to the rows.</td>
+					</tr>
+					<tr>
+						<td>&lt;tfooter&gt;</td>
+						<td>Table Footer</td>
+						<td>The set of rows defining the footer in a table.</td>
+					</tr>
+					</tbody>
+			</table> <br> <br>
 
-						<table>
-								<h2>Table Attributes</h2>
-								<thead>
-										<tr>
-												<th>Attribute</th>
-												<th>Name</th>
-												<th>Description</th>
-										</tr>
-								</thead>
-								<tbody>
-										<tr>
-												<td>colspan</td>
-												<td>Column Span</td>
-												<td>Defines how many columns a td element should span.</td>
-										</tr>
-										<tr>
-												<td>rowspan</td>
-												<td>Row Span</td>
-												<td>Defines how many rows a td element should span.</td>
-										</tr>
-								</tbody>
-						</table> <br> <br>
+			<table>
+				<h2>Table Attributes</h2>
+					<thead>
+						<tr>
+							<th>Attribute</th>
+							<th>Name</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>colspan</td>
+							<td>Column Span</td>
+							<td>Defines how many columns a td element should span.</td>
+						</tr>
+						<tr>
+							<td>rowspan</td>
+							<td>Row Span</td>
+							<td>Defines how many rows a td element should span.</td>
+						</tr>
+					</tbody>
+			</table> <br> <br>
 
-					 <table>
-							 <h2>Type Selectors</h2>
-							 <thead>
-										<tr>
-												<th>Purpose</th>
-												<th>Selectors</th>
-												<th>Examples</th>
-												<th>Descriptions</th>
-										</tr>
-								</thead>
+			 <table>
+				 <h2>Type Selectors</h2>
+					 <thead>
+						<tr>
+							<th>Purpose</th>
+							<th>Selectors</th>
+							<th>Examples</th>
+							<th>Descriptions</th>
+						</tr>
+					</thead>
 
-								<tbody>
-										<tr>
-												<td rowspan="4">The Type selector will select all elements that has the tag name irrespective of their nesting levels</td>
-												<td> Paragraph tag</td>
-												<td>p {...}</td> 
-												<td>Select all <span class ="tagCol">&lt;p&gt;</span> tags</td>
-										</tr>
+					<tbody>
+						<tr>
+							<td rowspan="4">The Type selector will select all elements that has the tag name irrespective of their nesting levels</td>
+							<td> Paragraph tag</td>
+							<td>p {...}</td> 
+							<td>Select all <span class ="tagCol">&lt;p&gt;</span> tags</td>
+						</tr>
 
-										<tr>
-												<td>Heading tag</td>
-												<td>h1 {...}</td>
-												<td>Selects all<span class ="tagCol"> &lt;h1&gt; </span>tags</td>
-										</tr>
+						<tr>
+							<td>Heading tag</td>
+							<td>h1 {...}</td>
+							<td>Selects all<span class ="tagCol"> &lt;h1&gt; </span>tags</td>
+						</tr>
 
-										<tr>
-												<td>Table tag</td>
-												<td>table {...}</td>
-												<td>Selects all <span class ="tagCol"> &lt;table&gt;</span> tags</td>
-										</tr>
+						<tr>
+							<td>Table tag</td>
+							<td>table {...}</td>
+							<td>Selects all <span class ="tagCol"> &lt;table&gt;</span> tags</td>
+						</tr>
 
-										<tr>
-												<td>Image tags</td>
-												<td>img {...}</td>
-												<td>Selects all <span class ="tagCol">&lt;img&gt; </span>tags</td>
-										</tr>
-								</tbody>
-						</table>
+						<tr>
+							<td>Image tags</td>
+							<td>img {...}</td>
+							<td>Selects all <span class ="tagCol">&lt;img&gt; </span>tags</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section>
+				<table> <br><br>
+<!-- You will have to use border="1" if you want to see the table lines and they always appear double
+but you can use css to colapse it to use border property to change it to one single line--> 
+				<h2> Class and ID Selectors</h2>
+					<thead>
+						<tr>
+							<th>Purpose </th>
+							<th>Selectors</th>
+							<th>Examples</th>
+							<th>Descriptions</th>
+						</tr>
+					</thead>
+					<tbody>
+
+						<tr>
+							<td rowspan ="4">Class selectors are prefixed with a period (.) and having a marching name in the HTML. While ID selectors are prefixed with a hashtag (#) and to be used to style only one single element and there needs to be a matching name in the HTML.</td>
+					<!-- rowspan will merge 4 cells in the row together--> 
+					<!-- if you need to leave a cell empty, just use a <th><th> or <td><td>-->
+							<td> .className </td>
+							<td>.topbox {...}</td>
+							<td>This selects all elements with class = "topbox"</td>
+						</tr>
+		 
+						 <tr>
+							 <td>.className</td>
+							 <td>.nav {...}</td>
+							 <td>Selects all elements with class = "nav" </td>
+						 </tr>
+		 
+						 <tr>
+							 <td> #idNname </td>
+							 <td> #header {...}</td>
+							 <td> Selects the element with id = "header" in the html</td>
+						 </tr>
+		 
+						 <tr>
+							 <td> #idNname </td>
+							 <td>#studioFlat {...}</td>
+							 <td>Selects the element with id = "studioFlat" in the html</td>
+						</tr>
+					</tbody>
+
+					</table>
 				</section>
 
 				<section>
-							<table> 
-							<br><br>
-<!-- You will have to use border="1" if you want to see the table lines and they always appear double
-but you can use css to colapse it to use border property to change it to one single line--> 
-								<h2> Class and ID Selectors</h2>
-								<thead>
-										<tr>
-												<th>Purpose </th>
-												<th>Selectors</th>
-												<th>Examples</th>
-												<th>Descriptions</th>
-										</tr>
-								</thead>
-								<tbody>
-
-										<tr>
-												<td rowspan ="4">Class selectors are prefixed with a period (.) and having a marching name in the HTML. While ID selectors are prefixed with a hashtag (#) and to be used to style only one single element and there needs to be a matching name in the HTML.</td>
-												<!-- rowspan will merge 4 cells in the row together--> 
-												<!-- if you need to leave a cell empty, just use a <th><th> or <td><td>-->
-												<td> .className </td>
-												<td>.topbox {...}</td>
-												<td>This selects all elements with class = "topbox"</td>
-										</tr>
-		 
-												 <tr>
-														 <td>.className</td>
-														 <td>.nav {...}</td>
-														 <td>Selects all elements with class = "nav" </td>
-												 </tr>
-		 
-												 <tr>
-														 <td> #idNname </td>
-														 <td> #header {...}</td>
-														 <td> Selects the element with id = "header" in the html</td>
-												 </tr>
-		 
-												 <tr>
-														 <td> #idNname </td>
-														 <td>#studioFlat {...}</td>
-														 <td>Selects the element with id = "studioFlat" in the html</td>
-										</tr>
-										</tbody>
-
-								</table>
-						</section>
-
-						<section>
-								<table> <br><br>
-								<h2>Group Selectors</h2>
-										<thead>
-												<tr>
-														<th>Purpose</th>
-														<th>Selectors</th>
-														<th>Examples</th>
-														<th>Descriptions</th>
-												</tr>
-										</thead>
-								
-										<tbody>
-												<tr>
-														<td>The Group selector combines multiple elements that are not related to give the same style, instead of styling separately so as to reduce length of codes</td>
-														<td>element,element (separated by comma (,))</td>
-														<td>p,h2,span {...}</td> 
-														<td>Select all <span class ="tagCol">&lt;p&gt; &lt;h2&gt; &lt;span&gt;</span> tags</td>
-												</tr>
-										</tbody>
-								</table>
-						</section>
+					<table> <br><br>
+					<h2>Group Selectors</h2>
+						<thead>
+							<tr>
+								<th>Purpose</th>
+								<th>Selectors</th>
+								<th>Examples</th>
+								<th>Descriptions</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td>The Group selector combines multiple elements that are not related to give the same style, instead of styling separately so as to reduce length of codes</td>
+								<td>element,element (separated by comma (,))</td>
+								<td>p,h2,span {...}</td> 
+								<td>Select all <span class ="tagCol">&lt;p&gt; &lt;h2&gt; &lt;span&gt;</span> tags</td>
+							</tr>
+						</tbody>
+						</table>
+				</section>
 							 
-						<section>
-								<table> <br><br>
-								<h2>Space or Descendant Selectors</h2>
-										<thead>
-												<tr>
-														<th>Purpose</th>
-														<th>Selectors</th>
-														<th>Examples</th>
-														<th>Descriptions</th>
-												</tr>
-										</thead>
+				<section>
+					<table> <br><br>
+					<h2>Space or Descendant Selectors</h2>
+						<thead>
+							<tr>
+								<th>Purpose</th>
+								<th>Selectors</th>
+								<th>Examples</th>
+								<th>Descriptions</th>
+							</tr>
+						</thead>
 
-										<tbody>
+						<tbody>
 
-												<tr>
-														<td rowspan="2">This will select tag or descendant that is inside of another tag even if there are other elements nested as well. It does not have to be a direct child of the tag </td>
-														<td>tag tag (separated by space)</td>
-														<td>ul li {...} </td>
-														<td>This selects any <span class ="tagCol">&lt;li&gt;</span> tag that is inside the <span class ="tagCol">&lt;ul&gt;</span> tag</td>
-												</tr>
+							<tr>
+								<td rowspan="2">This will select tag or descendant that is inside of another tag even if there are other elements nested as well. It does not have to be a direct child of the tag </td>
+								<td>tag tag (separated by space)</td>
+								<td>ul li {...} </td>
+								<td>This selects any <span class ="tagCol">&lt;li&gt;</span> tag that is inside the <span class ="tagCol">&lt;ul&gt;</span> tag</td>
+							</tr>
 
-												<tr>
-														<td>tag tag (separated by space)</td>
-														<td>nav a {...} </td>
-														<td>This selects any <span class ="tagCol">&lt;a&gt;</span> tag that is inside the <span class ="tagCol">&lt;nav&gt;</span> tag</td>
-													 </tr>
-										</tbody>
-							 </table>
-						</section>
+							<tr>
+								<td>tag tag (separated by space)</td>
+								<td>nav a {...} </td>
+								<td>This selects any <span class ="tagCol">&lt;a&gt;</span> tag that is inside the <span class ="tagCol">&lt;nav&gt;</span> tag</td>
+							 </tr>
+						</tbody>
+						 </table>
+					</section>
 
-						<section>
-								<table> <br><br>
-										<h2>Child Selectors</h2>
-										<thead>
-												 <tr>
-														 <th>Purpose</th>
-														 <th>Selectors</th>
-														 <th>Examples</th>
-														 <th>Descriptions</th>
-												 </tr>
-										 </thead>
-
-										 <tbody>
-												<tr>
-														 <td rowspan="2">This will select tag that is a direct child of the parent tag </td>
-														 <td>tag > tag (separated right angled bracket)</td>
-														 <td>h1 > span {...} </td>
-														 <td>This selects the <span class ="tagCol">&lt;span&gt;</span> tag that is a direct child inside of  <span class ="tagCol">&lt;h1&gt;</span> parent tag</td>
-												</tr>
-
-												<tr>
-														<td>tag > tag (separated right angled bracket)</td>
-														<td>footer > .copyright {...} </td>
-														<td>This select the class name "copyright" tag that is directly inside the <span class ="tagCol">&lt;footer&gt;</span> tag</td>
-											 </tr>
-									 </tbody>
-								</table>
+					<section>
+						<table> <br><br>
+						<h2>Child Selectors</h2>
+							<thead>
+								 <tr>
+									 <th>Purpose</th>
+									 <th>Selectors</th>
+									 <th>Examples</th>
+									 <th>Descriptions</th>
+								 </tr>
+							 </thead>
+							 <tbody>
+								<tr>
+									 <td rowspan="2">This will select tag that is a direct child of the parent tag </td>
+									 <td>tag > tag (separated right angled bracket)</td>
+									 <td>h1 > span {...} </td>
+									 <td>This selects the <span class ="tagCol">&lt;span&gt;</span> tag that is a direct child inside of  <span class ="tagCol">&lt;h1&gt;</span> parent tag</td>
+								</tr>
+								<tr>
+									<td>tag > tag (separated right angled bracket)</td>
+									<td>footer > .copyright {...} </td>
+									<td>This select the class name "copyright" tag that is directly inside the <span class ="tagCol">&lt;footer&gt;</span> tag</td>
+								 </tr>
+							 </tbody>
+						</table>
 					 </section>
 
 					 <section>
 						<table> <br><br>
-								<h2>Attribute Selectors</h2>
-								<thead>
-										 <tr>
-												 <th>Purpose</th>
-												 <th>Selectors</th>
-												 <th>Examples</th>
-												 <th>Descriptions</th>
-										 </tr>
-								</thead>
+						<h2>Attribute Selectors</h2>
+							<thead>
+								 <tr>
+									 <th>Purpose</th>
+									 <th>Selectors</th>
+									 <th>Examples</th>
+									 <th>Descriptions</th>
+								 </tr>
+							</thead>
 
-								<tbody>
-										<tr>
-												 <td rowspan="4">This will select the tag that has attributes associated with it. The attribute portion is always contained in a bracket [] and is the attribute that is being selected not value </td>
-												 <td>tag[attribute] </td>
-												 <td>div id="header" will be div[id] {...} </td>
-												 <td>This selects any <span class ="tagCol">&lt;div&gt;</span> tag with id </td>
-										</tr>
+							<tbody>
+								<tr>
+									 <td rowspan="4">This will select the tag that has attributes associated with it. The attribute portion is always contained in a bracket [] and is the attribute that is being selected not value </td>
+									 <td>tag[attribute] </td>
+									 <td>div id="header" will be div[id] {...} </td>
+									 <td>This selects any <span class ="tagCol">&lt;div&gt;</span> tag with id </td>
+								</tr>
 
-										<tr>
-												<td>tag[attribute] </td>
-												<td>span class="deck" will be span[deck] {...} </td>
-												<td>This selects any <span class ="tagCol">&lt;span&gt;</span> tag with deck </td>
-									 </tr>
+								<tr>
+									<td>tag[attribute] </td>
+									<td>span class="deck" will be span[deck] {...} </td>
+									<td>This selects any <span class ="tagCol">&lt;span&gt;</span> tag with deck </td>
+								 </tr>
 
-									 <tr>
-												<td>a[title] {...} </td>
-												<td><ul>
-														<li>&lt; a href="http://google.com" title="google" I am a link&gt; &lt;/a&gt;</li><br>
-														<li>&lt; a href="http://google.com" title="search engine" I am a link&gt; &lt;/a&gt;</td></li>
-														</ul>
+								 <tr>
+									<td>a[title] {...} </td>
+									<td><ul>
+									<li>&lt; a href="http://google.com" title="google" I am a link&gt; &lt;/a&gt;</li><br>
+									<li>&lt; a href="http://google.com" title="search engine" I am a link&gt; &lt;/a&gt;</td></li>
+									</ul>
 														
-												<td>This selects any <span class ="tagCol">&lt;a&gt;</span> tag with title attribute </td>
-										</tr>
+									<td>This selects any <span class ="tagCol">&lt;a&gt;</span> tag with title attribute </td>
+								</tr>
 
-										<tr>
-												<td>a[title="search engine"] {...} </td>
-												<td><ul>
-														<li>&lt; a href="http://google.com" title="google" I am a link&gt; &lt;/a&gt;</li><br>
-														<li>&lt; a href="http://google.com" title="search engine" I am a link&gt; &lt;/a&gt;</td></li>
-														</ul>
-												<td>This selects the <span class ="tagCol">&lt;a&gt;</span> tag with title attribute of search engine</td>
-										</tr>
-								 </tbody>
+								<tr>
+									<td>a[title="search engine"] {...} </td>
+									<td><ul>
+									<li>&lt; a href="http://google.com" title="google" I am a link&gt; &lt;/a&gt;</li><br>
+									<li>&lt; a href="http://google.com" title="search engine" I am a link&gt; &lt;/a&gt;</td></li>
+									</ul>
+									<td>This selects the <span class ="tagCol">&lt;a&gt;</span> tag with title attribute of search engine</td>
+								</tr>
+							 </tbody>
 						</table>
 			 </section>
 
 			 <section>
-						<table> <br><br>
-								<h2>Specificity</h2>
-								<thead>
-										<tr>
-												<th>Purpose</th>
-												<th>Scores</th>
-												<th>Examples</th>
-												<th>Descriptions</th>
-										</tr>
-								</thead>
+				<table> <br><br>
+				<h2>Specificity</h2>
+					<thead>
+						<tr>
+							<th>Purpose</th>
+							<th>Scores</th>
+							<th>Examples</th>
+							<th>Descriptions</th>
+						</tr>
+					</thead>
 										
-								<tbody>
-										<tr>
-												<td rowspan="4">When there are 2 or more IDENTICAL SELECTORS ponting to DIFFERENT styles/rules, css uses cascading method to render the code (meaning top to bottom), the one at the bottom closest to the element wins. But When there are multiple styles targeting the same element/tag selector, the browser uses specificity rule/score to determine which one is more specific to the element and that rule will override all other rules and wins. Specificity is dependent on what is in the selector  </td>
-												<td>Inline styles carries 1000 score, they are weightier as they are attached directly to the element to be styled </td>
-												<td><ul>
-														<li>h1 {...}</li><br>
-														<li>#gamechanger {...}</li><br>
-														<li>&lt;div id="gamechanger"&gt; &lt;h1 style="....: ..."&gt; Airlines &lt;/h1&gt; &lt;/div&gt; </td></li>
-														</ul>
-												<td>The last item style will be applied as is inline style and closest to the item to be styled</td>
-										</tr>
+					<tbody>
+						<tr>
+							<td rowspan="4">When there are 2 or more IDENTICAL SELECTORS ponting to DIFFERENT styles/rules, css uses cascading method to render the code (meaning top to bottom), the one at the bottom closest to the element wins. But When there are multiple styles targeting the same element/tag selector, the browser uses specificity rule/score to determine which one is more specific to the element and that rule will override all other rules and wins. Specificity is dependent on what is in the selector  </td>
+							<td>Inline styles carries 1000 score, they are weightier as they are attached directly to the element to be styled </td>
+							<td><ul>
+							<li>h1 {...}</li><br>
+							<li>#gamechanger {...}</li><br>
+							<li>&lt;div id="gamechanger"&gt; &lt;h1 style="....: ..."&gt; Airlines &lt;/h1&gt; &lt;/div&gt; </td></li>
+							</ul>
+							<td>The last item style will be applied as is inline style and closest to the item to be styled</td>
+						</tr>
 
-										<tr>
-												<td>ID's are unique selectors and carries 100 points which has higher specificity than classes, attributes and elements</td>
-												<td><ul>
-														<li>#main-content p {...};</li><br>
-														<li> p{...};</li>
-														</ul></td>
-												<td>The first selector style will be applied as it has got id in its selector which carries 100points</td>
-										</tr>
+						<tr>
+							<td>ID's are unique selectors and carries 100 points which has higher specificity than classes, attributes and elements</td>
+							<td><ul>
+							<li>#main-content p {...};</li><br>
+							<li> p{...};</li>
+							</ul></td>
+							<td>The first selector style will be applied as it has got id in its selector which carries 100points</td>
+						</tr>
 
-										<tr>
-												<td>Classes, attributes, pseudo-class selectors all carries 10 points each which has higher specificity than elements</td>
-												<td><ul>
-														<li>.scout p {...};</li><br>
-														<li> h2{...};</li>
-														</ul>
-												</td>
-												<td>The first selector style will be applied as it has got class in its selector which carries 10points</td>
-										</tr>
+						<tr>
+							<td>Classes, attributes, pseudo-class selectors all carries 10 points each which has higher specificity than elements</td>
+							<td><ul>
+							<li>.scout p {...};</li><br>
+							<li> h2{...};</li>
+							</ul>
+							</td>
+							<td>The first selector style will be applied as it has got class in its selector which carries 10points</td>
+						</tr>
 
-										<tr>
-												<td> Elements and pseudo-elements have 1 points each</td>
-												<td> p, h1...h6, div, :before, :after </td>
-												<td>They all have 1points each and rank last </td>
-										</tr>
-										</tbody>
-								</table>
-						</section>
+						<tr>
+							<td> Elements and pseudo-elements have 1 points each</td>
+							<td> p, h1...h6, div, :before, :after </td>
+							<td>They all have 1points each and rank last </td>
+						</tr>
+					</tbody>
+					</table>
+			</section>
 		</main>
 
     <footer>
-      <img src="./images/codecademy-logo.png" alt="Logo of codecademy" width="250px">
+      <img src="/codecademy-logo.png" alt="Logo of codecademy" width="250px">
       <span>Designed by: Asadullah Ahmed</span>      
     </footer>
 
